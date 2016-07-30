@@ -25,9 +25,9 @@ import java.util.concurrent.Future;
  */
 public class ImageGenerator {
 
-//    private String apikey="40aeff7c07ba433bff6eec589a0597da";
-//    private String apikey="626368bc20fdc51e3ea06de65877d7a5";
-    private String apikey="181a2d6010fc2e2b7f032cb46da8265f";
+//    private String apikey="YOUR_CONVERTIO_API_KEY_";
+//    private String apikey="YOUR_CONVERTIO_API_KEY_";
+    // private String apikey="YOUR_CONVERTIO_API_KEY_";
 
     private HtmlImageGenerator htmlImageGenerator;
     private String before="<!DOCTYPE html>\n<html>\n<body><div style='background-color:white;width:600px;max-width:600px;height:auto'>";
