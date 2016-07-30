@@ -1,5 +1,6 @@
 package org.bot.main;
 
+import com.google.common.io.Resources;
 import com.mashape.unirest.http.Headers;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.Unirest;
@@ -25,10 +26,11 @@ import java.util.concurrent.Future;
 public class ImageGenerator {
 
 //    private String apikey="40aeff7c07ba433bff6eec589a0597da";
-    private String apikey="626368bc20fdc51e3ea06de65877d7a5";
+//    private String apikey="626368bc20fdc51e3ea06de65877d7a5";
+    private String apikey="181a2d6010fc2e2b7f032cb46da8265f";
     private HtmlImageGenerator htmlImageGenerator;
-    private String before="<!DOCTYPE html>\n<html>\n<body>";
-    private String after="</body>\n</html>\n";
+    private String before="<!DOCTYPE html>\n<html>\n<body><div style='background-color:white;width:600px;max-width:600px;height:auto'>";
+    private String after="</div></body>\n</html>\n";
     private ArrayList<JSONObject> responseFromConverter=new ArrayList<JSONObject>();
 
     public ImageGenerator(){
@@ -81,10 +83,19 @@ public class ImageGenerator {
     private void downloadImage(String stringurl,JSONObject target) throws IOException {
         File file=getFileName();
         URL url=new URL(stringurl);
-        FileUtils.copyURLToFile(url,file);
+//        FileUtils.copyURLToFile(url,file);
+        ImageDownloader(stringurl,file);
         target.put("sent",false);
         target.put("lastfile",file);
     }
+
+
+    private void ImageDownloader(String IMAGE_URL,File outputfile) throws IOException {
+        URL fetchImage = new URL(IMAGE_URL);
+        byte[] imageAsArray = Resources.toByteArray(fetchImage);
+        com.google.common.io.Files.write(imageAsArray, outputfile);
+    }
+
 
     private File getFileName() throws IOException {
         File folder = new File("./");

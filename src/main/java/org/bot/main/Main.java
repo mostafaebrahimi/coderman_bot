@@ -48,6 +48,7 @@ public class Main {
 */
 
         ClientManager clientManager=new ClientManager("257991269:AAHocjVp_bKeejV3EFJ-rS_a1ymzo3glG14");
+
 //        ImageGenerator imageGenerator=new ImageGenerator();
 //        imageGenerator.generateJSONObject(new JSONObject().put("id",10),test);
 //        while (true){

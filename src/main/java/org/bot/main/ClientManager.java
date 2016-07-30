@@ -1,5 +1,6 @@
 package org.bot.main;
 
+import com.google.common.io.Resources;
 import com.pengrad.telegrambot.Callback;
 import com.pengrad.telegrambot.TelegramBot;
 import com.pengrad.telegrambot.TelegramBotAdapter;
@@ -7,20 +8,18 @@ import com.pengrad.telegrambot.model.Message;
 import com.pengrad.telegrambot.model.Update;
 import com.pengrad.telegrambot.model.User;
 import com.pengrad.telegrambot.model.request.*;
-import com.pengrad.telegrambot.request.EditMessageReplyMarkup;
-import com.pengrad.telegrambot.request.GetUpdates;
-import com.pengrad.telegrambot.request.SendMessage;
-import com.pengrad.telegrambot.request.SendPhoto;
+import com.pengrad.telegrambot.request.*;
 import com.pengrad.telegrambot.response.GetUpdatesResponse;
 import com.pengrad.telegrambot.response.SendResponse;
+import com.sun.imageio.plugins.common.ImageUtil;
+import org.apache.commons.io.FileUtils;
 import org.json.JSONObject;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.*;
 
 /**
  * Created by Mostafa on 7/29/2016.
@@ -32,8 +31,22 @@ public class ClientManager {
     private TelegramBot telegramBot=null;
     ImageGenerator imageGenerator=null;
     Keyboard replyKeyboardMarkup = new ReplyKeyboardMarkup(
-            new String[]{"first row button1", "first row button2"},
+            new String[]{"java", "first row button2"},
             new String[]{"second row button1", "second row button2"})
+            .oneTimeKeyboard(true)   // optional
+            .resizeKeyboard(true)    // optional
+            .selective(true);
+
+    Keyboard replyKeyboard=new ReplyKeyboardMarkup(
+            new String[]{"java","groovy","php","xml"},
+            new String[]{"json","python","lua","matlab"},
+            new String[]{"c","cpp","csharp","fsharp"},
+            new String[]{"coffee-script","delphi","django"},
+            new String[]{"jade","css","html"},
+            new String[]{"haml","js","jsp"},
+            new String[]{"objective-c","objective-c++"},
+            new String[]{"plpgsql","python3","cobol"},
+            new String[]{"yaml","vim","perl"})
             .oneTimeKeyboard(true)   // optional
             .resizeKeyboard(true)    // optional
             .selective(true);
@@ -49,9 +62,29 @@ public class ClientManager {
         Keyboard forceReply = new ForceReply(true); // or just new ForceReply();
         Keyboard replyKeyboardHide = new ReplyKeyboardHide(); // new ReplyKeyboardHide(isSelective)
         imageGenerator=new ImageGenerator();
+//        sender();
         getUpdater();
 
     }
+
+    private void ImageDownloader(String IMAGE_URL,File outputfile) throws IOException {
+        URL fetchImage = new URL(IMAGE_URL);
+        byte[] imageAsArray = Resources.toByteArray(fetchImage);
+        com.google.common.io.Files.write(imageAsArray, outputfile);
+    }
+
+
+    public void sender() throws IOException {
+        String test="image_"+ String.valueOf(10)+".jpg";
+        System.out.println(test);
+        File file2=new File("testme1.png");
+        file2.setReadable(true);
+//        ImageDownloader("https://margo.convertio.me/p/eUsqDcRTRZd47mngEJ9OLw/181a2d6010fc2e2b7f032cb46da8265f/test.jpg",file2);
+        ImageDownloader("https://lisa.convertio.me/p/JQWauUY-28K-jmIDE23i0g/181a2d6010fc2e2b7f032cb46da8265f/test.jpeg",file2);
+        this.telegramBot.execute(new SendDocument(95232711,file2));
+
+    }
+
 
     /*Deprecated
     private void sendPictureResponse(ArrayList<JSONObject> responses){
@@ -104,12 +137,8 @@ public class ClientManager {
                     System.out.println(res.get("chatid"));
                     System.out.println(res.get("lastfile"));
                     String name=photo.getName();
-//                    File
-                    //TODO why we cannot send this image
-                    //some times static path worked
                     this.telegramBot.execute(new SendMessage(res.get("chatid"),"Sending Code Photo..."));
-                    this.telegramBot.execute(new SendPhoto(res.get("chatid"),new File("test1.jpg")));
-
+                    this.telegramBot.execute(new SendDocument(res.get("chatid"),photo));
                     photo.delete();
                 }
             }
@@ -137,7 +166,7 @@ public class ClientManager {
         if(message.text().equals("/run")){
             cleanClientCache(message.from().id());
             setRunState(message);
-            sendResponse(message,"Please Send Your Language");
+            sendResponse(message,"Please Send Your Programming Language",this.replyKeyboard);
         }
         else {
             JSONObject temp=this.findUser(message);
@@ -152,7 +181,6 @@ public class ClientManager {
                 }
             }
         }
-
     }
 
     private void setCodeState(Message message){
@@ -161,10 +189,10 @@ public class ClientManager {
             user.put("state","code");
             user.put("language",message.text());
             this.clientStates.add(user);
-            sendResponse(message,"Please Send Your Code");
+            sendResponse(message,"Please Send Your Codes",null);
         }
         else {
-            this.sendResponse(message,"Please send /run to run again");
+            this.sendResponse(message,"Please send /run to run again",this.replyKeyboardMarkup);
         }
     }
 
@@ -179,7 +207,7 @@ public class ClientManager {
                             ,message.chat().id().intValue());
                 }
                 else {
-                    sendResponse(message,"Please send /run to run again :(");
+                    sendResponse(message,"Please send /run to run again :(",this.replyKeyboardMarkup);
                 }
             }
             else {
@@ -187,7 +215,7 @@ public class ClientManager {
             }
         }
         else {
-            sendResponse(message,"Please Send /run command to start again");
+            sendResponse(message,"Please Send /run command to start again",this.replyKeyboardMarkup);
         }
     }
 
@@ -238,11 +266,17 @@ public class ClientManager {
 
     }
 
-    private void sendResponse(Message request,String text){
+    private void sendResponse(Message request,String text,Keyboard replyKeyboard){
         SendResponse sendResponse=null;
-        sendResponse = this.telegramBot.execute(
-                new SendMessage(request.chat().id(),text)
-                        .replyMarkup(this.keyboard));
+        if(replyKeyboard==null){
+            sendResponse = this.telegramBot.execute(
+                    new SendMessage(request.chat().id(),text));
+        }
+        else {
+            sendResponse = this.telegramBot.execute(
+                    new SendMessage(request.chat().id(),text)
+                            .replyMarkup(replyKeyboard));
+        }
     }
 
 }

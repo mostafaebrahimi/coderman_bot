@@ -27,5 +27,6 @@
     <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.json:json:20160212" level="project" />
     <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:19.0" level="project" />
   </component>
 </module>

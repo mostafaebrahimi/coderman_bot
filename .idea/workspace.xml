@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0147a046-75d7-4c47-b078-a9005f0bc553" name="Default" comment="" />
+    <list default="true" id="0147a046-75d7-4c47-b078-a9005f0bc553" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/bot/main/ClientManager.class" afterPath="$PROJECT_DIR$/target/classes/org/bot/main/ClientManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator$1.class" afterPath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator$2.class" afterPath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator.class" afterPath="$PROJECT_DIR$/target/classes/org/bot/main/ImageGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/bot/main/Main.class" afterPath="$PROJECT_DIR$/target/classes/org/bot/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java" afterPath="$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java" afterPath="$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bot/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/bot/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/telegram_bot_test.iml" afterPath="$PROJECT_DIR$/telegram_bot_test.iml" />
+    </list>
     <ignored path="telegram_bot_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +42,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="93">
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,33 +54,19 @@
       <file leaf-file-name="ClientManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#985#999#0" expanded="true" />
-                <element signature="e#1063#1075#0" expanded="true" />
+                <element signature="e#915#929#0" expanded="true" />
+                <element signature="e#993#1005#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="image.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_11.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_11.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="image_10.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/image_10.jpg">
+      <file leaf-file-name="image26.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image26.jpg">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -74,20 +75,20 @@
       <file leaf-file-name="ImageGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="318">
+              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1087#1099#0" expanded="true" />
-                <element signature="e#1131#1132#0" expanded="true" />
-                <element signature="e#1190#1191#0" expanded="true" />
-                <element signature="e#2073#2085#0" expanded="true" />
-                <element signature="e#4729#4730#0" expanded="true" />
-                <element signature="e#4859#4860#0" expanded="true" />
-                <element signature="e#5491#5492#0" expanded="true" />
-                <element signature="e#5599#5600#0" expanded="true" />
-                <element signature="e#7054#7055#0" expanded="true" />
-                <element signature="e#7170#7171#0" expanded="true" />
+                <element signature="e#1272#1284#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#2258#2270#0" expanded="true" />
+                <element signature="e#5232#5233#0" expanded="true" />
+                <element signature="e#5362#5363#0" expanded="true" />
+                <element signature="e#5994#5995#0" expanded="true" />
+                <element signature="e#6102#6103#0" expanded="true" />
+                <element signature="e#7557#7558#0" expanded="true" />
+                <element signature="e#7673#7674#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +97,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="292">
+              <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -116,11 +117,13 @@
       <file leaf-file-name="CoderMan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="267">
+              <caret line="47" column="84" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4716#4728#0" expanded="true" />
+                <element signature="e#3626#3627#0" expanded="true" />
+                <element signature="e#3663#3664#0" expanded="true" />
+                <element signature="e#4789#4801#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +148,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -154,10 +160,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/bot/main/ManagerClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/bot/main/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java" />
       </list>
     </option>
@@ -177,7 +183,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -221,6 +227,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="telegram_bot_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,15 +609,15 @@
       <updated>1469709482628</updated>
       <workItem from="1469709487768" duration="18142000" />
       <workItem from="1469758454473" duration="27621000" />
-      <workItem from="1469860486446" duration="16729000" />
+      <workItem from="1469860486446" duration="26358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62492000" />
+    <option name="totallyTimeSpent" value="72121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -564,11 +628,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24615385" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33333334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -602,7 +666,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java</url>
-          <line>90</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
@@ -616,28 +680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#985#999#0" expanded="true" />
-            <element signature="e#1063#1075#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pengrad/java-telegram-bot-api/2.1.1/java-telegram-bot-api-2.1.1.jar!/com/pengrad/telegrambot/model/Chat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -684,16 +726,16 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1087#1099#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#2073#2085#0" expanded="true" />
-            <element signature="e#4729#4730#0" expanded="true" />
-            <element signature="e#4859#4860#0" expanded="true" />
-            <element signature="e#5491#5492#0" expanded="true" />
-            <element signature="e#5599#5600#0" expanded="true" />
-            <element signature="e#7054#7055#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
+            <element signature="e#1272#1284#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#2258#2270#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5362#5363#0" expanded="true" />
+            <element signature="e#5994#5995#0" expanded="true" />
+            <element signature="e#6102#6103#0" expanded="true" />
+            <element signature="e#7557#7558#0" expanded="true" />
+            <element signature="e#7673#7674#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -704,7 +746,9 @@
           <caret line="125" column="32" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4716#4728#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#4789#4801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,8 +787,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#985#999#0" expanded="true" />
-            <element signature="e#1063#1075#0" expanded="true" />
+            <element signature="e#915#929#0" expanded="true" />
+            <element signature="e#993#1005#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,7 +799,9 @@
           <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4716#4728#0" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#4789#4801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -957,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="109">
@@ -973,55 +1011,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4716#4728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/image_11.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/image_10.jpg">
+    <entry file="file://$PROJECT_DIR$/testme.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="101" column="9" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1087#1099#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#2073#2085#0" expanded="true" />
-            <element signature="e#4729#4730#0" expanded="true" />
-            <element signature="e#4859#4860#0" expanded="true" />
-            <element signature="e#5491#5492#0" expanded="true" />
-            <element signature="e#5599#5600#0" expanded="true" />
-            <element signature="e#7054#7055#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/image.jpg">
@@ -1029,14 +1026,85 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="93">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#985#999#0" expanded="true" />
-            <element signature="e#1063#1075#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_8.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image26.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ImageGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1272#1284#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#2258#2270#0" expanded="true" />
+            <element signature="e#5232#5233#0" expanded="true" />
+            <element signature="e#5362#5363#0" expanded="true" />
+            <element signature="e#5994#5995#0" expanded="true" />
+            <element signature="e#6102#6103#0" expanded="true" />
+            <element signature="e#7557#7558#0" expanded="true" />
+            <element signature="e#7673#7674#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/CoderMan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="47" column="84" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3626#3627#0" expanded="true" />
+            <element signature="e#3663#3664#0" expanded="true" />
+            <element signature="e#4789#4801#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bot/main/ClientManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#915#929#0" expanded="true" />
+            <element signature="e#993#1005#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -49,6 +49,9 @@ public class CoderMan {
             "xml+evoque","xml+lasso","xml+mako","xml+myghty","xml+php","xml+erb","xml+smarty","xml+velocity",
             "xquery","xslt","xtend","yaml"
     };
+    public String[] getLanguages(){
+        return this.languages;
+    }
 
     public boolean supportLanguage(String language){
         for(String str:languages){
