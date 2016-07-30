@@ -47,6 +47,7 @@ public class Main {
                 "</html>\n";
 */
 
+
         ClientManager clientManager=new ClientManager("257991269:AAHocjVp_bKeejV3EFJ-rS_a1ymzo3glG14");
 
 //        ImageGenerator imageGenerator=new ImageGenerator();
