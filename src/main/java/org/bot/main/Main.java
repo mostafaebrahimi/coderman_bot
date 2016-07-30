@@ -47,7 +47,7 @@ public class Main {
                 "</html>\n";
 */
 
-        ClientManager clientManager=new ClientManager("257991269:AAHocjVp_bKeejV3EFJ-rS_a1ymzo3glG14");
+        ClientManager clientManager=new ClientManager("YOUR_BOT_API_KEY");
 //        ImageGenerator imageGenerator=new ImageGenerator();
 //        imageGenerator.generateJSONObject(new JSONObject().put("id",10),test);
 //        while (true){
